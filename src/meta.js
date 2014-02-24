@@ -292,7 +292,9 @@ var fs = require('fs'),
 					}, function (err, results) {
 						if (results.minFile > results.mtime) {
 							winston.info('No changes to client-side libraries -- skipping minification');
-							callback(null, [path.relative(path.join(__dirname, '../public'), Meta.js.minFile)]);
+							Meta.js.minify(function(){
+								callback(null, [path.relative(path.join(__dirname, '../public'), Meta.js.minFile)]);
+							});
 						} else {
 							Meta.js.minify(function () {
 								callback(null, [

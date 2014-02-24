@@ -1,4 +1,5 @@
 {
+
     "topic": "主题",
     "topics": "主题",
     "no_topics_found": "没有找到主题！",
@@ -14,12 +15,12 @@
     "fork": "作为主题",
     "banned": "封禁",
     "link": "链接",
-    "share": "Share",
-    "tools": "Tools",
+    "share": "分享",
+    "tools": "工具",
     "flag": "Flag",
     "flag_title": "Flag this post for moderation",
     "thread_tools.title": "管理工具",
-    "thread_tools.markAsUnreadForAll": "Mark Unread",
+    "thread_tools.markAsUnreadForAll": "标记未读",
     "thread_tools.pin": "置顶帖子",
     "thread_tools.lock": "锁定帖子",
     "thread_tools.move": "移动帖子",
